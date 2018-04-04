@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite">
+              <span class="suite-name border-failed">Rovsing Application Test Automation Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Rovsing_Application_Test_Automation_Test_Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Rovsing_Application_Test_Automation_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Rovsing_Application_Test_Automation_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Rovsing_Application_Test_Automation_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Rovsing_Application_Test_Automation_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Rovsing_Application_Test_Automation_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Rovsing_Application_Test_Automation_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" class="hide-methods failed suite-Rovsing_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Rovsing_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" class="show-methods failed suite-Rovsing_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods failed suite-Rovsing_Application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Rovsing_Application_Test_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.ApplicationFormTest" hash-for-method="FormSubmission">FormSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Rovsing_Application_Test_Automation_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" class="hide-methods passed suite-Rovsing_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Rovsing_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" class="show-methods passed suite-Rovsing_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Rovsing_Application_Test_Automation_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Rovsing_Application_Test_Automation_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.CompanyPageTest" hash-for-method="LogoImageTest">LogoImageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.HomePageTest" hash-for-method="LogoImageTest">LogoImageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.SearchPageTest" hash-for-method="VerifySearchResult">VerifySearchResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.CompanyPageTest" hash-for-method="verifyCompanyBoardofDirectors">verifyCompanyBoardofDirectors</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.HomePageTest" hash-for-method="verifyCompanyLinkTest">verifyCompanyLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.CompanyPageTest" hash-for-method="verifyCompanyPageTitleTest">verifyCompanyPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.CompanyPageTest" hash-for-method="verifyContactUs">verifyContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.CompanyPageTest" hash-for-method="verifyCustomers">verifyCustomers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.HomePageTest" hash-for-method="verifyHomePageTitleTest">verifyHomePageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" title="com.rovsing.qa.testcases.CompanyPageTest" hash-for-method="verifyManagement">verifyManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Rovsing_Application_Test_Automation_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Rovsing_Application_Test_Automation_Test_Suite" class="panel Rovsing_Application_Test_Automation_Test_Suite">
+          <div class="suite-Rovsing_Application_Test_Automation_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.rovsing.qa.testcases.ApplicationFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FormSubmission">
+                  </a> <!-- FormSubmission -->
+                  <span class="method-name">FormSubmission</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotEquals(Assert.java:897)
+	at org.testng.Assert.assertNotEquals(Assert.java:902)
+	at com.rovsing.qa.testcases.ApplicationFormTest.FormSubmission(ApplicationFormTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rovsing_Application_Test_Automation_Test_Suite-class-failed -->
+          <div class="suite-Rovsing_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rovsing.qa.testcases.CompanyPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogoImageTest">
+                  </a> <!-- LogoImageTest -->
+                  <span class="method-name">LogoImageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanyBoardofDirectors">
+                  </a> <!-- verifyCompanyBoardofDirectors -->
+                  <span class="method-name">verifyCompanyBoardofDirectors</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanyPageTitleTest">
+                  </a> <!-- verifyCompanyPageTitleTest -->
+                  <span class="method-name">verifyCompanyPageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyContactUs">
+                  </a> <!-- verifyContactUs -->
+                  <span class="method-name">verifyContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCustomers">
+                  </a> <!-- verifyCustomers -->
+                  <span class="method-name">verifyCustomers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyManagement">
+                  </a> <!-- verifyManagement -->
+                  <span class="method-name">verifyManagement</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rovsing_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Rovsing_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rovsing.qa.testcases.SearchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySearchResult">
+                  </a> <!-- VerifySearchResult -->
+                  <span class="method-name">VerifySearchResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rovsing_Application_Test_Automation_Test_Suite-class-passed -->
+          <div class="suite-Rovsing_Application_Test_Automation_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rovsing.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogoImageTest">
+                  </a> <!-- LogoImageTest -->
+                  <span class="method-name">LogoImageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanyLinkTest">
+                  </a> <!-- verifyCompanyLinkTest -->
+                  <span class="method-name">verifyCompanyLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomePageTitleTest">
+                  </a> <!-- verifyHomePageTitleTest -->
+                  <span class="method-name">verifyHomePageTitleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Rovsing_Application_Test_Automation_Test_Suite-class-passed -->
+        </div> <!-- panel Rovsing_Application_Test_Automation_Test_Suite -->
+        <div panel-name="test-xml-Rovsing_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/air/eclipse-workspace/RovsingAutomation/src/main/resources/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;10&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;2&quot; name=&quot;Rovsing Application Test Automation Test Suite&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;Rovsing App Test Cases&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rovsing.qa.testcases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;com.rovsing.qa.testcases.SearchPageTest&quot;/&gt;
+      &lt;class name=&quot;com.rovsing.qa.testcases.CompanyPageTest&quot;/&gt;
+      &lt;class name=&quot;com.rovsing.qa.testcases.ApplicationFormTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Rovsing App Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Rovsing Application Test Automation Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Rovsing_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Rovsing Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Rovsing App Test Cases (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Rovsing_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Rovsing Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Rovsing_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Rovsing Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Rovsing_Application_Test_Automation_Test_Suite');
+function tableData_Rovsing_Application_Test_Automation_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyManagement')
+data.setCell(0, 2, 'com.rovsing.qa.testcases.CompanyPageTest')
+data.setCell(0, 3, 34591);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCompanyLinkTest')
+data.setCell(1, 2, 'com.rovsing.qa.testcases.HomePageTest')
+data.setCell(1, 3, 29195);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCompanyBoardofDirectors')
+data.setCell(2, 2, 'com.rovsing.qa.testcases.CompanyPageTest')
+data.setCell(2, 3, 27077);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCustomers')
+data.setCell(3, 2, 'com.rovsing.qa.testcases.CompanyPageTest')
+data.setCell(3, 3, 20311);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyContactUs')
+data.setCell(4, 2, 'com.rovsing.qa.testcases.CompanyPageTest')
+data.setCell(4, 3, 17527);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'VerifySearchResult')
+data.setCell(5, 2, 'com.rovsing.qa.testcases.SearchPageTest')
+data.setCell(5, 3, 13861);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'FormSubmission')
+data.setCell(6, 2, 'com.rovsing.qa.testcases.ApplicationFormTest')
+data.setCell(6, 3, 7055);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'LogoImageTest')
+data.setCell(7, 2, 'com.rovsing.qa.testcases.CompanyPageTest')
+data.setCell(7, 3, 159);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'LogoImageTest')
+data.setCell(8, 2, 'com.rovsing.qa.testcases.HomePageTest')
+data.setCell(8, 3, 60);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyCompanyPageTitleTest')
+data.setCell(9, 2, 'com.rovsing.qa.testcases.CompanyPageTest')
+data.setCell(9, 3, 38);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyHomePageTitleTest')
+data.setCell(10, 2, 'com.rovsing.qa.testcases.HomePageTest')
+data.setCell(10, 3, 16);
+window.suiteTableData['Rovsing_Application_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Rovsing_Application_Test_Automation_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Rovsing_Application_Test_Automation_Test_Suite">
+              </div> <!-- times-div-Rovsing_Application_Test_Automation_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Rovsing_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Rovsing Application Test Automation Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Rovsing_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Rovsing_Application_Test_Automation_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rovsing.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogoImageTest</span>
+                <span class="method-start">37071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37133 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37760 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomePageTitleTest</span>
+                <span class="method-start">65918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">66130 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompanyLinkTest</span>
+                <span class="method-start">92824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">122021 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rovsing.qa.testcases.SearchPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">122232 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifySearchResult</span>
+                <span class="method-start">153841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">167703 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rovsing.qa.testcases.CompanyPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">167906 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LogoImageTest</span>
+                <span class="method-start">221628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">221788 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">222042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompanyPageTitleTest</span>
+                <span class="method-start">258039 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">258079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">258317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompanyBoardofDirectors</span>
+                <span class="method-start">294345 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">321424 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">321634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyManagement</span>
+                <span class="method-start">389671 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">424264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">424487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCustomers</span>
+                <span class="method-start">456288 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">476601 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">476805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyContactUs</span>
+                <span class="method-start">524386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">541914 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rovsing.qa.testcases.ApplicationFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">542216 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FormSubmission</span>
+                <span class="method-start">602624 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">609695 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Rovsing Application Test Automation Test Suite" verbose="2"  parallel="tests" thread-count="10">
+	<listeners>
+		
+	</listeners>
+<test name="Rovsing App Test Cases" parallel="none">
+	
+		<classes>
+
+			<class name="com.rovsing.qa.testcases.HomePageTest"></class>
+
+			<class name="com.rovsing.qa.testcases.SearchPageTest"></class>
+			<class name="com.rovsing.qa.testcases.CompanyPageTest"></class>
+			
+			<class name="com.rovsing.qa.testcases.ApplicationFormTest"></class>
+
+
+
+		</classes>
+	</test>
+</suite>
+
+
